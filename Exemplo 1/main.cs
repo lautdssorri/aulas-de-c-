@@ -31,5 +31,24 @@ class Program
         //Exibindo o resultado
         Console.WriteLine("A soma dos valores é: " + soma);
 
+
+        //Exemplo 3 --------
+        Console.WriteLine("----------EX3-----------");
+        Console.WriteLine("Digite o primeiro valor: ");
+        string nota1 = Console.ReadLine();
+        int n1 = int.Parse(nota1);
+
+        Console.WriteLine("Digite o segundo valor: ");
+        string nota2 = Console.ReadLine();
+        int n2 = int.Parse(nota2);
+
+        Console.WriteLine("Digite o terceiro valor: ");
+        string nota3 = Console.ReadLine();
+        int n3 = int.Parse(nota3);
+
+        int media = (n1 + n2 + n3) / 3;
+
+        Console.WriteLine("A media dos valores é: " + media);
+
     }
 }
